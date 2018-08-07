@@ -1,0 +1,33 @@
+{
+  "projectileName" : "splashdrop1",
+  "image" : "splashdrop1.png",
+  "animationCycle" : 0.25,
+  "physics" : "highgravgrenade",
+  "frameNumber" : 2,
+  "pointLight" : false,
+  "animationLoops" : false,
+  "speed" : 20,
+  "timeToLive" : 2.5,
+  "orientationLocked" : true,
+  "flippable" : true,
+  "power" : 1.0,
+  "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
+  "damageKind" : "default",
+  "emitters" : [ "daggerblue" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/watersplash/watersplash.config"
+    },
+//    {
+//      "action" : "sound",
+//      "options" : [ "/sfx/blocks/water_puddlemod.ogg" ]
+//    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/waterballoon1.ogg", "/sfx/projectiles/waterballoon2.ogg", "/sfx/projectiles/waterballoon3.ogg", "/sfx/projectiles/waterballoon4.ogg" ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,13 @@
+{
+  "name" : "hyperbolicEffect",
+  "effectConfig" : {},
+  "defaultDuration" : 6.0,
+
+  "scripts" : [
+    "hyperbolic.lua"
+  ],
+
+  "label" : "Hyperbolic Blast",
+  "icon" : "/interface/statuses/glow.png"
+}
+

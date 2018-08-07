@@ -1,0 +1,20 @@
+{
+  "projectileName" : "chalcedonicexplosion",
+  "image" : "chalcedonicexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default",
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/astraltear_stop1.ogg" ]
+    }
+  ]
+}

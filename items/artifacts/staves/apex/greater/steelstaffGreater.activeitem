@@ -1,0 +1,133 @@
+{
+  "itemName" : "steelstaffGreater",
+  "level" : 6,
+  "price" : 1440,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Deploys a drone that fires lasers and rockets.",
+  "shortdescription" : "Deadbolt Staff",
+  "category" : "artifact",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff"],
+  "tooltipKind" : "staff",
+
+  "animation" : "/items/active/weapons/staff/staff.animation",
+  "animationParts" : {
+    "staff" : "steelstaffGreater.png",
+    "stone" : "",
+    "chargeEffect" : "staffglow.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "staff" : {
+          "properties" : {
+            "offset" : [-0.1,1.1]
+          }
+        },
+        "chargeEffect" : {
+          "properties" : {
+            "offset" : [-0.1, 1.725]
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "physicalcharge" : {
+         "emissionRate" : 0,
+         "offsetRegion" : [0, 0, 0, 0],
+         "particles" : [ {"particle" : "blanked"} ]
+      }
+    }
+  },
+
+  "inventoryIcon" : "steelstaffGreater.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.2,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.1,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.3,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "projectilespawn",
+  "primaryAbility" : {
+    "name" : "Deadbolt Drone",
+    "energyCost" : 80,
+
+    "maxCastRange" : 25,
+
+    "projectileCount" : 1,
+    "projectileDistance" : 3,
+    "projectileType" : "deadboltteleportin",
+    "projectileParameters" : {
+      "speed" : 0.01,
+      "power" : 12,
+      "color" : [255, 10, 10]
+    },
+    "triggerSound" : [ "/sfx/gun/rocket1.ogg", "/sfx/gun/rocket_fly.ogg" ]
+  },
+
+//  "altAbility" : {
+//    "type" : "balllightning",
+//    "name" : "Ball Lightning",
+//    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+//    "class" : "ControlProjectile",
+//
+//    "energyCost" : 80,
+//
+//    "maxCastRange" : 25,
+//
+//    "projectileCount" : 3,
+//    "projectileDistance" : 2.5,
+//    "projectileType" : "balllightning",
+//    "projectileParameters" : {
+//      "baseDamage" : 10
+//    }
+//  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

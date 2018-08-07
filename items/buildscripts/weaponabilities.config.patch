@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/projectilespawn",
+    "value": "/items/artifacts/staves/projectilespawn.weaponability"
+  }
+]

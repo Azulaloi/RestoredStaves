@@ -1,0 +1,115 @@
+{
+  "itemName" : "aquastaffGreater",
+  "level" : 6,
+  "price" : 1440,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Creates a torrent of water.",
+  "shortdescription" : "Hylid's Pulse Staff",
+  "category" : "artifact",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff"],
+  "tooltipKind" : "staff",
+
+  "animation" : "/items/active/weapons/staff/staff.animation",
+  "animationParts" : {
+    "staff" : "aquastaffGreater.png",
+    "stone" : "",
+    "chargeEffect" : "staffglow.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "staff" : {
+          "properties" : {
+            "offset" : [-0.05, 1.1]
+          }
+        },
+        "chargeEffect" : {
+          "properties" : {
+            "offset" : [-0.05, 1.875]
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "physicalcharge" : {
+        "emissionRate" : 0,
+        "offsetRegion" : [0.1, 0.2, 0.1, 0.2],
+        "particles" : [ {"particle" : "daggerblue"} ]
+      }
+    }
+  },
+
+  "inventoryIcon" : "aquastaffGreater.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.2,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.1,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.3,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "projectilespawn",
+  "primaryAbility" : {
+    "name" : "Aqua Deluge",
+    "energyCost" : 80,
+
+    "maxCastRange" : 25,
+
+    "projectileCount" : 1,
+    "projectileDistance" : 3,
+    "projectileType" : "splashspawner2",
+    "projectileParameters" : {
+      "speed" : 0.01,
+      "power" : 12,
+      "color" : [255, 10, 10]
+    },
+    "triggerSound" : [ "/sfx/gun/rocket1.ogg", "/sfx/gun/rocket_fly.ogg" ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

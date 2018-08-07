@@ -1,0 +1,7 @@
+{
+  "name" : "az-restoredstaves",
+  "friendlyName" : "Restored Staves",
+  "description" : "Restores the fourteen racial staves that were present in early versions of the game, with minor improvements.",
+  "author" : "Azulaloi",
+  "version" : "0.0"
+}
