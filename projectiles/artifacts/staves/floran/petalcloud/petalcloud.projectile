@@ -9,7 +9,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/artifacts/staves/floran/petalcloud/leafexplosion.config"
+      "file" : "/projectiles/artifacts/staves/floran/cutterpetal/petalexplosion.config"
     }
   ],
 

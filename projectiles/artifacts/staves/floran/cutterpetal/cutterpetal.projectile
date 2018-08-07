@@ -13,7 +13,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/leafexplosion/leafexplosion.config"
+      "file" : "/projectiles/artifacts/staves/floran/cutterpetal/petalexplosion.config"
     }
   ],
   "power" : 1.0,
