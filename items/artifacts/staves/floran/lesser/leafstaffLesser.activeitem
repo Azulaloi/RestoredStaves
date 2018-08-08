@@ -34,9 +34,9 @@
     },
     "particleEmitters" : {
       "physicalcharge" : {
-         "emissionRate" : 0,
-         "offsetRegion" : [0, 0, 0, 0],
-         "particles" : [ {"particle" : "lightredparticle"} ]
+         "emissionRate" : 3,
+         "offsetRegion" : [0, 2, 0.2, 1.8],
+         "particles" : [ {"particle" : "azpetalstaff"} ]
       }
     }
   },
