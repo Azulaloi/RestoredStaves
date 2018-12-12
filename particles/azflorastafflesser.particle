@@ -1,8 +1,8 @@
 {
-  "kind" : "azpetalstaff",
+  "kind" : "azflorastafflesser",
   "definition" : {
     "type" : "animated",
-    "animation" : "/animations/sparkles/sparkle4.animation",
+    "animation" : "/animations/floraleafsparkle.animation",
     "fade" : 0.9,
     "destructionAction" : "shrink",
     "destructionTime" : 1,

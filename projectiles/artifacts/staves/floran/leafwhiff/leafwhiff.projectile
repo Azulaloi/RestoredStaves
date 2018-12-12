@@ -1,0 +1,14 @@
+{
+  "projectileName" : "leafwhiff",
+  "image" : "leafwhiff.png",
+  "physics" : "gas",
+  "speed" : 0.1,
+  "animationLoops" : false,
+  "animationCycle" : 0.9,
+  "frameNumber" : 8,
+  "piercing" : true,
+  "flippable" : true,
+  "power" : 0,
+  "damageKind" : "default",
+  "damageType" : "NoDamage"
+}
