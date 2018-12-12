@@ -9,5 +9,5 @@
   "piercing" : true,
   "flippable" : true,
   "damageTeam" : { "type" : "indiscriminate" },
-  "damageKind" : "default"
+  "damageKind" : "plasma"
 }
