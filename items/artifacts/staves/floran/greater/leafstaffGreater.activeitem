@@ -82,11 +82,11 @@
     },
     "cooldown" : {
       "duration" : 0.3,
-      "armRotation" : 0,
+      "armRotation" : -45,
       "weaponRotation" : 0,
       "twoHanded" : true,
 
-      "allowRotate" : true,
+      "allowRotate" : false,
       "allowFlip" : true
     }
   },
