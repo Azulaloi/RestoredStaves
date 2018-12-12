@@ -1,0 +1,29 @@
+{
+  "kind" : "azplasmatrailgreater",
+  "definition" : {
+    "duration" : 0.025,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "azplasmastaffspark1", "azplasmastaffspark2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind" : "azplasmatraillesser",
+  "definition" : {
+    "duration" : 0.035,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "azplasmastaffspark1" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

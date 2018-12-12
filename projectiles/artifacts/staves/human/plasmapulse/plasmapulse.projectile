@@ -21,11 +21,11 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/globeexplosions/magentaglobeexplosion/magentaglobeexplosion.config"
+      "file" : "/projectiles/artifacts/staves/human/explosionlesser/plasmastaffexplosionlesser.config"
     }
   ],
   "lightColor" : [180, 50, 180],
   "damagePoly" : [ [-2, 5], [-2, -5], [10, -5], [10, 5] ],
   "damageKind" : "plasma",
-  "emitters" : [ "defaultmagenta" ]
+  "emitters" : [ "azplasmatraillesser" ]
 }
