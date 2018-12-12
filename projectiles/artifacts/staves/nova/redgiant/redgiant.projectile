@@ -23,5 +23,5 @@
     }
   ],
   "damageKind" : "plasma",
-  "emitters" : [ "defaultorange" ]
+  "emitters" : [ "aznovaprojred" ]
 }

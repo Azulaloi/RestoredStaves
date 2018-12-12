@@ -207,5 +207,5 @@
     }
   ],
   "damageKind" : "plasma",
-  "emitters" : [ "defaultblue" ]
+  "emitters" : [ "aznovaprojblue" ]
 }
