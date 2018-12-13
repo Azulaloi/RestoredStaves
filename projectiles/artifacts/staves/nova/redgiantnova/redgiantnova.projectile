@@ -1,6 +1,6 @@
 {
-  "projectileName" : "azorangeglobeexplosion",
-  "image" : "orangeglobeexplosion.png",
+  "projectileName" : "redgiantnova",
+  "image" : "redgiantnova.png",
   "animationCycle" : 0.2,
   "frameNumber" : 4,
   "lightColor" : [255, 127, 0],

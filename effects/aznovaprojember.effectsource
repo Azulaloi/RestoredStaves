@@ -1,5 +1,5 @@
 {
-  "kind" : "aznovaprojblue",
+  "kind" : "aznovaprojember",
   "location" : "mouth",
   "definition" : {
     "duration" : 0.1,
@@ -11,7 +11,7 @@
       "sounds" : [ [ ] ]
     },
     "particles" : [
-      [ "aznovaprojgreater", "aznovaprojgreater" ]
+      [ "aznovaember" ]
     ],
     "sounds" : [ [ ] ],
     "stop" : {

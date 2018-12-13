@@ -1,18 +1,18 @@
 {
-  "kind" : "aznovaprojlesser",
+  "kind" : "aznovafadewhite",
   "definition" : {
     "type" : "ember",
-    "size" : 1.5,
-    "color" : [255, 62, 48, 255],
-    "fade" : 0.0,
+    "size" : 1.0,
+    "color" : [217, 216, 254, 255],
+    "fade" : 1.0,
     "initialVelocity" : [0, 0],
     "finalVelocity" : [0, 0],
     "approach" : [0, 0],
-    "timeToLive" : 1.0,
+    "timeToLive" : 0.8,
     "layer" : "middle",
     "variance" : {
-      "initialVelocity" : [6, 6],
-      "size" : 1.0
+      "initialVelocity" : [4, 4],
+      "size" : 0.5
     }
   }
 }

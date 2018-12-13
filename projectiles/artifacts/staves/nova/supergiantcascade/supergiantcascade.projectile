@@ -1,0 +1,75 @@
+{
+  "projectileName" : "supergiantcascade",
+  "bounces" : -1,
+  "timeToLive" : 1.5,
+  "speed" : 10,
+  "physics" : "gas",
+  "image" : "supergiantcascade.png",
+  "lightColor" : [110, 110, 200],
+  "frameNumber" : 1,
+  "damageKind" : "snowball",
+  "hydrophobic" : true,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/artifacts/supergiantcascade.ogg" ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 135
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 180
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 225
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 270
+    },
+    {
+      "action" : "projectile",
+      "type" : "supergiantfade",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 5,
+      "angle" : 315
+    }
+  ],
+  "emitters" : [ "aznovaprojcascade" ]
+}

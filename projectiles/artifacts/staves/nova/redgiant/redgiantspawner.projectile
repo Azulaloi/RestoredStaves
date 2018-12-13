@@ -20,7 +20,7 @@
     },
     {
       "action" : "sound",
-      "options" : [ "/sfx/projectiles/redgiant.ogg" ]
+      "options" : [ "/sfx/artifacts/redgiant.ogg" ]
     },
     {
       "action" : "projectile",

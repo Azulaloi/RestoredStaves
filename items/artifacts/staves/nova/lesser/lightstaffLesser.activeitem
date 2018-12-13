@@ -38,6 +38,13 @@
          "offsetRegion" : [0.5, 0.3, 0.5, 0.3],
          "particles" : [ {"particle" : "aznovastaffred"} ]
       }
+    },
+    "sounds" : {
+      "physicalcharge" : ["/sfx/artifacts/charge_red.ogg"],
+      "physicalfullcharge" : ["/sfx/artifacts/charge_red_full.ogg"],
+      "physicalchargedloop" : ["/sfx/artifacts/charge_red_hold.ogg"],
+      "physicaldischarge" : ["/sfx/artifacts/charge_deactivate.ogg"],
+      "physicalactivate" : ["/sfx/artifacts/charge_red_activate.ogg"]
     }
   },
 

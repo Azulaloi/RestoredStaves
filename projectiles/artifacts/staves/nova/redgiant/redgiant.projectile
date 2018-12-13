@@ -19,7 +19,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/artifacts/staves/orangeglobeexplosion/orangeglobeexplosion.config"
+      "file" : "/projectiles/artifacts/staves/nova/redgiantnova/redgiantnova.config"
     }
   ],
   "damageKind" : "plasma",
