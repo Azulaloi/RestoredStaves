@@ -16,7 +16,7 @@
     "sounds" : [ [ ] ],
     "stop" : {
       "particles" : [
-        [ ]
+        [  ]
       ],
       "sounds" : [ [ ] ]
     }

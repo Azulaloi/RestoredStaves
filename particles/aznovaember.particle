@@ -5,6 +5,8 @@
     "size" : 0.8,
     "color" : [90, 86, 222, 255],
     "fade" : 1.0,
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
     "initialVelocity" : [0, 0],
     "finalVelocity" : [0, 0],
     "approach" : [0, 0],
