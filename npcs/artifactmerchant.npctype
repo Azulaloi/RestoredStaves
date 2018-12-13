@@ -1,0 +1,163 @@
+{
+  "type" : "artifactmerchant",
+  "baseType" : "base",
+
+  "damageTeamType" : "friendly",
+
+
+
+  "npcname" : "Xenon",
+  "identity" : {
+    "name" : "Xenon",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "fem6",
+    "facialHairGroup" : "brand",
+    "facialHairType" : "4",
+    "personalityIdle" : "idle.4",
+    "color" : [51, 117, 237],
+    "bodyDirectives" : "?replace;806319=0d500f;f6b919=17dc0d;fde03f=63f574;fff8b5=c7ffdc?replace;951500=417356;be1b00=6bb383;f32200=daffe5;dc1f00=97ecb0",
+    "facialHairDirectives" : "?replace;806319=0d500f;f6b919=17dc0d;fde03f=63f574;fff8b5=c7ffdc",
+    "emoteDirectives" : "?replace;806319=0d500f;f6b919=17dc0d;fde03f=63f574;fff8b5=c7ffdc?replace;951500=417356;be1b00=6bb383;f32200=daffe5;dc1f00=97ecb0",
+    "hairDirectives" : "?replace;806319=0d500f;f6b919=17dc0d;fde03f=63f574;fff8b5=c7ffdc"
+  },
+
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "behavior" : "merchant",
+
+    "behaviorConfig" : {
+      "noticePlayersRadius" : 0,
+
+      "hostileDamageTeam" : { "type" :  "enemy", "team" :  1}
+    },
+
+
+    "questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : false
+    },
+
+
+    "merchant" : {
+      "waitTime" : 40,
+      "poolsFile" : "/npcs/azmerchant.config",
+
+      "categories" : {
+        "override": [ "xenon" ]
+      },
+
+
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 14,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Xenon Xenith",
+          "subtitle" : "  Sells ancient artifacts"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : { "default" : {
+          "default" : [
+            "Start"
+          ]}},
+        "end" : { "default" : {
+          "default" : [
+            "End"
+          ]}},
+        "follow" : { "default" : {
+          "default" : [
+            "Follow"
+          ]}},
+        "welcome" : { "default" : {
+          "default" : [
+            "Welcome"
+          ]}},
+        "tout" :  { "default" : {
+          "default" : [
+            "Tout"
+          ]}},
+        "flee" : {
+          "helpme" : { "default" : {
+            "default" : [
+              "help"
+            ]}},
+          "safe" : { "default" : {
+            "default" : [
+              "Safe"
+            ]}}
+          },
+        "tenant" : {
+          "grumbles" : {
+            "tagCriteria" : { "default" : {
+              "default" : [
+                "Tag Criteria"
+              ]}},
+            "enclosedArea" : { "default" : {
+              "default" : [
+                "Not enclosed"
+              ]}},
+            "otherDeed" : { "default" : {
+              "default" : [
+                "Other deed"
+              ]}},
+            "severe" : { "default" : {
+              "default" : [
+                "Severe conditions"
+              ]}},
+            "final" : { "default" : {
+              "default" : [
+                "Final"
+              ]}}
+            },
+          "arrivedHome" : {
+            "beacon" : { "default" : {
+              "default" : [
+                "Beacon"
+              ]}},
+            "rent" : { "default" : {
+              "default" : [
+                "Rent"
+              ]}}
+            }
+        },
+        "accuse" : { "default" : {
+          "default" : [
+            "Accuse"
+          ]}},
+        "alert" : { "default" : {
+          "default" : [
+            "Alert"
+          ]}}
+        }
+      }
+    },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ "craftsmenchest" ],
+          "legs" : [ "craftsmenlegs" ],
+          "head" : [ "novatier1head" ],
+          "back" : [ null ],
+          "sheathedprimary" : [
+            "lightstaffGreater"
+          ]
+        }
+      ] ]
+    ]
+  }
+
+}

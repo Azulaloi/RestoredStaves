@@ -1,0 +1,23 @@
+
+[
+  {
+    "op": "add",
+    "path": "/layers/5/objects/10",
+    "value": {
+      "height": 8,
+      "id": 904,
+      "name": "",
+      "properties": {
+        "npc": "novakid",
+        "seed": "7",
+        "typeName": "artifactmerchant"
+      },
+      "rotation": 0,
+      "type": "",
+      "visible": true,
+      "width": 8,
+      "x": 1840,
+      "y": 1128
+    }
+  }
+]
