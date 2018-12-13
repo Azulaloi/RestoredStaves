@@ -98,7 +98,7 @@
     "name" : "Red Giant",
     "energyCost" : 80,
 
-    "maxCastRange" : 25,
+    "maxCastRange" : 20,
 
     "projectileCount" : 1,
     "projectileDistance" : 3,
@@ -110,24 +110,6 @@
     },
     "triggerSound" : [ "/sfx/gun/rocket1.ogg", "/sfx/gun/rocket_fly.ogg" ]
   },
-
-//  "altAbility" : {
-//    "type" : "balllightning",
-//    "name" : "Ball Lightning",
-//    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
-//    "class" : "ControlProjectile",
-//
-//    "energyCost" : 80,
-//
-//    "maxCastRange" : 25,
-//
-//    "projectileCount" : 3,
-//    "projectileDistance" : 2.5,
-//    "projectileType" : "balllightning",
-//    "projectileParameters" : {
-//      "baseDamage" : 10
-//    }
-//  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

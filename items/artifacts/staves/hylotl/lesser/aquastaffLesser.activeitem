@@ -98,7 +98,7 @@
     "name" : "Aqua Splash",
     "energyCost" : 80,
 
-    "maxCastRange" : 25,
+    "maxCastRange" : 20,
 
     "projectileCount" : 1,
     "projectileDistance" : 3,

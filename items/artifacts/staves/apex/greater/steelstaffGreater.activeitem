@@ -1,9 +1,9 @@
 {
   "itemName" : "steelstaffGreater",
   "level" : 6,
-  "price" : 1440,
+  "price" : 4550,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "Deploys a drone that fires lasers and rockets.",
   "shortdescription" : "Deadbolt Staff",
   "category" : "artifact",
@@ -96,9 +96,9 @@
   "primaryAbilityType" : "projectilespawn",
   "primaryAbility" : {
     "name" : "Deadbolt Drone",
-    "energyCost" : 80,
+    "energyCost" : 100,
 
-    "maxCastRange" : 25,
+    "maxCastRange" : 20,
 
     "projectileCount" : 1,
     "projectileDistance" : 3,

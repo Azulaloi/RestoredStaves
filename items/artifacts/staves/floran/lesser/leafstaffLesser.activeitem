@@ -1,7 +1,7 @@
 {
   "itemName" : "leafstaffLesser",
   "level" : 5,
-  "price" : 1440,
+  "price" : 2560,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Creates a powerful blizzard of leaves.",
@@ -98,7 +98,7 @@
     "name" : "Leaf Cloud",
     "energyCost" : 80,
 
-    "maxCastRange" : 25,
+    "maxCastRange" : 20,
 
     "projectileCount" : 1,
     "projectileDistance" : 3,

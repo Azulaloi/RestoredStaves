@@ -1,10 +1,10 @@
 {
   "itemName" : "plasmastaffGreater",
   "level" : 6,
-  "price" : 1440,
+  "price" : 4550,
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "Powered by the destructive desires of the wielder...and hot plasma",
+  "rarity" : "Legendary",
+  "description" : "Powered by the destructive desires of the wielder... and hot plasma",
   "shortdescription" : "Boom Blast Staff",
   "category" : "artifact",
   "twoHanded" : true,
@@ -99,9 +99,9 @@
   "primaryAbilityType" : "projectilespawn",
   "primaryAbility" : {
     "name" : "Boom Blast",
-    "energyCost" : 80,
+    "energyCost" : 100,
 
-    "maxCastRange" : 25,
+    "maxCastRange" : 20,
 
     "projectileCount" : 1,
     "projectileDistance" : 3,

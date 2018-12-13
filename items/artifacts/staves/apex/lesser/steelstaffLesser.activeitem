@@ -1,7 +1,7 @@
 {
   "itemName" : "steelstaffLesser",
   "level" : 5,
-  "price" : 1440,
+  "price" : 2560,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Deploys a small drone which fires lasers.",
@@ -98,7 +98,7 @@
     "name" : "Monkeynut Drone",
     "energyCost" : 80,
 
-    "maxCastRange" : 25,
+    "maxCastRange" : 20,
 
     "projectileCount" : 1,
     "projectileDistance" : 3,
