@@ -34,9 +34,11 @@
     },
     "particleEmitters" : {
       "physicalcharge" : {
-         "emissionRate" : 0,
-         "offsetRegion" : [0, 0, 0, 0],
-         "particles" : [ {"particle" : "blanked"} ]
+        "emissionRate" : 6,
+        "offsetRegion" : [0, 2.2, 0.2, 2],
+        "particles" : [
+          {"particle" : "azsteelsparkbolt"}
+        ]
       }
     }
   },
