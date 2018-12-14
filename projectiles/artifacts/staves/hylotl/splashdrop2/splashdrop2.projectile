@@ -12,6 +12,8 @@
   "flippable" : true,
   "power" : 1.0,
   "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
+  "damageKind" : "default",
+  "emitters" : [ "azaquadrip" ],
   "actionOnReap" : [
       {
       "action" : "projectile",
@@ -20,9 +22,7 @@
       "inheritDamageFactor" : 1.0,
       "inheritSpeedFactor" : 0.001
     }
-  ],
-  "damageKind" : "default",
-  "emitters" : [ "daggerblue" ]
+  ]
 }
 
 

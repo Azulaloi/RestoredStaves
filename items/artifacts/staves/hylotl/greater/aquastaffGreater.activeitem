@@ -34,9 +34,11 @@
     },
     "particleEmitters" : {
       "physicalcharge" : {
-        "emissionRate" : 0,
-        "offsetRegion" : [0.1, 0.2, 0.1, 0.2],
-        "particles" : [ {"particle" : "daggerblue"} ]
+        "emissionRate" : 8,
+        "offsetRegion" : [0, 2.2, 0.2, 2],
+        "particles" : [
+          {"particle" : "azaquadrop"}
+        ]
       }
     }
   },

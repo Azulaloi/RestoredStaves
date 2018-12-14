@@ -13,16 +13,12 @@
   "power" : 1.0,
   "damagePoly" : [ [-2, 2], [-2, -2], [2, -2], [2, 2] ],
   "damageKind" : "default",
-  "emitters" : [ "daggerblue" ],
+  "emitters" : [ "azaquadrip" ],
   "actionOnReap" : [
     {
       "action" : "config",
       "file" : "/projectiles/explosions/watersplash/watersplash.config"
     },
-//    {
-//      "action" : "sound",
-//      "options" : [ "/sfx/blocks/water_puddlemod.ogg" ]
-//    },
     {
       "action" : "sound",
       "options" : [ "/sfx/projectiles/waterballoon1.ogg", "/sfx/projectiles/waterballoon2.ogg", "/sfx/projectiles/waterballoon3.ogg", "/sfx/projectiles/waterballoon4.ogg" ]
