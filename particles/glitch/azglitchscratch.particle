@@ -1,0 +1,22 @@
+{
+  "kind" : "azglitchscratch",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/particles/glitch/azglitchscratch.animation",
+    "size" : 0.5,
+    "color" : [80, 221, 254, 230],
+    "light" : [80, 221, 254, 80],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.8,
+    "position" : [0.0, 0.0],
+    "offsetRegion" : [0, 0, 0, 0],
+    "initialVelocity" : [0, 3.0],
+    "finalVelocity" : [0, -1],
+    "approach" : [0, 5],
+    "timeToLive" : 0.6,
+    "variance" : {
+      "initialVelocity" : [2, 2],
+      "size" : 0.5
+    }
+  }
+}

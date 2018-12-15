@@ -3,7 +3,7 @@
   "level" : 6,
   "price" : 4550,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "description" : "‘ÝnßRÀ17LR¥Ä…8æ/ñ¡C!±…Ä¥ŠKÞËáõg€§ýÛ¸Ž ÖeŒq‘¿çH§Ëx¹ØtUªŒ—üð†",
   "shortdescription" : "G4mE_bReÄK3r",
   "category" : "artifact",
@@ -34,9 +34,11 @@
     },
     "particleEmitters" : {
       "physicalcharge" : {
-         "emissionRate" : 0,
-         "offsetRegion" : [0, 0, 0, 0],
-         "particles" : [ {"particle" : "blanked"} ]
+        "emissionRate" : 3,
+        "offsetRegion" : [0, 2.2, 0.2, 2],
+        "particles" : [
+          {"particle" : "azglitchscratch"}
+        ]
       }
     }
   },
