@@ -38,6 +38,13 @@
          "offsetRegion" : [0, 2, 0.2, 1.8],
          "particles" : [ {"particle" : "azflorastafflesser"} ]
       }
+    },
+    "sounds" : {
+      "physicalcharge" : ["/sfx/artifacts/charge_leaf.ogg"],
+      "physicalchargedloop" : ["/sfx/artifacts/charge_leaf_hold.ogg"],
+      "physicalfullcharge" : ["/sfx/artifacts/charge_leaf_full.ogg"],
+      "physicaldischarge" : ["/sfx/artifacts/charge_leaf_fizzle.ogg"],
+      "physicalactivate" : ["/sfx/artifacts/charge_leaf_activate.ogg"]
     }
   },
 
@@ -110,24 +117,6 @@
     },
     "triggerSound" : [ "/sfx/gun/rocket1.ogg", "/sfx/gun/rocket_fly.ogg" ]
   },
-
-//  "altAbility" : {
-//    "type" : "balllightning",
-//    "name" : "Ball Lightning",
-//    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
-//    "class" : "ControlProjectile",
-//
-//    "energyCost" : 80,
-//
-//    "maxCastRange" : 25,
-//
-//    "projectileCount" : 3,
-//    "projectileDistance" : 2.5,
-//    "projectileType" : "balllightning",
-//    "projectileParameters" : {
-//      "baseDamage" : 10
-//    }
-//  },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
