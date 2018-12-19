@@ -38,6 +38,13 @@
          "offsetRegion" : [0, 0, 0, 0],
          "particles" : [ {"particle" : "blanked"} ]
       }
+    },
+    "sounds" : {
+      "physicalcharge" : ["/sfx/artifacts/charge_crystal.ogg"],
+      "physicalchargedloop" : ["/sfx/artifacts/charge_crystal_hold.ogg"],
+      "physicalfullcharge" : ["/sfx/artifacts/charge_crystal_full.ogg"],
+      "physicaldischarge" : ["/sfx/artifacts/charge_crystal_fizzle.ogg"],
+      "physicalactivate" : ["/sfx/artifacts/charge_crystal_activate.ogg"]
     }
   },
 
