@@ -1,0 +1,19 @@
+Creative Commons assets were used in the creation of some of these sound files.
+They are attributed below next to the sounds they were mixed into.
+freesound.org - user_sound-name
+
+charge_splash_hold - acclivity_brook20sec
+charge_splash_activate - qubodup_splash-by-blaukreuz
+charge_splash_full - metaepitome_sea-wave
+charge_splash - inspectorj_bubbling-large-a
+
+charge_deluge_hold - 0xmusex0_bathfill
+charge_deluge - tomlija_hot-water-gushing-out-of-a-metal-tap
+charge_deluge_full - darcydunes_big-splash
+
+charge_scratch - pulse00_p-glitches1
+charge_scratch_alt - shahruhaudio_robotic-transform-4
+charge_scratch_full - shahruhaudio_robotic-transform-4
+
+charge_glitch_full - screamstudio_sci-fi-sfx
+charge_glitch_fizzle - p_glitches1
