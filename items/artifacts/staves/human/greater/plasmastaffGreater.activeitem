@@ -41,6 +41,13 @@
           {"particle" : "azplasmastaffspark2"}
          ]
       }
+    },
+    "sounds" : {
+      "physicalcharge" : ["/sfx/artifacts/charge_plasma.ogg"],
+      "physicalchargedloop" : ["/sfx/artifacts/charge_plasma_hold.ogg"],
+      "physicalfullcharge" : ["/sfx/artifacts/charge_plasma_full.ogg"],
+      "physicalactivate" : ["/sfx/artifacts/charge_blast_activate.ogg"],
+      "physicaldischarge" : ["/sfx/artifacts/charge_plasma_fizzle.ogg"]
     }
   },
 
