@@ -70,75 +70,82 @@
       "merchant" : {
         "start" : { "default" : {
           "default" : [
-            "Start"
+            "Howdy, partner. Want to buy some staves?",
+            "I have quite the stave selection.",
+            "Artifacts for sale!",
+            "This is the only place in the galaxy where you can find such exquisite staves!",
+            "Ancient magical staves unearthed from previous galactic cycles for sale!"
           ]}},
         "end" : { "default" : {
           "default" : [
-            "End"
+            "Enjoy your priceless artifacts!",
+            "Good luck out there.",
+            "Try not to break it, now."
           ]}},
         "follow" : { "default" : {
           "default" : [
-            "Follow"
+            "I don't have a storefront, so this dialogue line shouldn't trigger."
           ]}},
         "welcome" : { "default" : {
           "default" : [
-            "Welcome"
+            "Welcome to my storefront?"
           ]}},
         "tout" :  { "default" : {
           "default" : [
-            "Tout"
+            "My staves are the best staves."
           ]}},
         "flee" : {
           "helpme" : { "default" : {
             "default" : [
-              "help"
+              "Help!",
+              "How did they get in here?"
             ]}},
           "safe" : { "default" : {
             "default" : [
-              "Safe"
+              "Not sure how that happened."
             ]}}
           },
         "tenant" : {
           "grumbles" : {
             "tagCriteria" : { "default" : {
               "default" : [
-                "Tag Criteria"
+                "How did I get here?"
               ]}},
             "enclosedArea" : { "default" : {
               "default" : [
-                "Not enclosed"
+                "This isn't even a shelter."
               ]}},
             "otherDeed" : { "default" : {
               "default" : [
-                "Other deed"
+                "How many of us are you trying to stuff in here?"
               ]}},
             "severe" : { "default" : {
               "default" : [
-                "Severe conditions"
+                "This place is not up to code."
               ]}},
             "final" : { "default" : {
               "default" : [
-                "Final"
+                "This has gone on long enough. Should these foul conditions persist, I will abscond at once."
               ]}}
             },
           "arrivedHome" : {
             "beacon" : { "default" : {
               "default" : [
-                "Beacon"
+                "Another day, another million staves sold."
               ]}},
             "rent" : { "default" : {
               "default" : [
-                "Rent"
+                "Here, have some staves for your troubles."
               ]}}
             }
         },
         "accuse" : { "default" : {
           "default" : [
-            "Accuse"
+            "Just what are you trying to do?"
           ]}},
         "alert" : { "default" : {
           "default" : [
-            "Alert"
+            "Shenanigans!"
           ]}}
         }
       }
