@@ -19,7 +19,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/glitchexplosion/glitchexplosion.config"
+      "file" : "/projectiles/artifacts/staves/glitch/glitchexplosion/azglitchexplosion.config"
     }
   ],
   

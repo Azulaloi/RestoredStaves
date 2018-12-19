@@ -1,5 +1,5 @@
 {
-  "projectileName" : "glitchexplosion",
+  "projectileName" : "azglitchexplosion",
   "image" : "glitchexplosion.png",
   "animationCycle" : 0.2,
   "frameNumber" : 6,

@@ -40,6 +40,14 @@
           {"particle" : "azglitchspark"}
         ]
       }
+    },
+    "sounds" : {
+      "physicalcharge" : ["/sfx/artifacts/charge_glitch.ogg"],
+      "physicalfullcharge" : ["/sfx/artifacts/charge_glitch_full.ogg"],
+      "physicalchargedloop" : ["/sfx/artifacts/charge_glitch_hold.ogg"],
+      "physicalactivate" : ["/sfx/artifacts/charge_glitch_activate.ogg"],
+      "physicaldischarge" : ["/sfx/artifacts/charge_glitch_fizzle.ogg"]
+
     }
   },
 
