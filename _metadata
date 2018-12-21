@@ -1,7 +1,9 @@
 {
-  "name" : "az-restoredstaves",
-  "friendlyName" : "Restored Staves",
-  "description" : "Restores the fourteen racial staves that were present in early versions of the game, with minor improvements like new sounds and particles.",
   "author" : "Azulaloi",
-  "version" : "0.0"
+  "description" : "This mod restores the fourteen racial staves that were present in early versions of the game. The staves have been modified to function like other current staves, with some visual/aural improvements like new particles and sounds. Other than that, their functions are as they were all those years ago. \n\nTo acquire the staves, visit the outpost and speak with the artifact merchant Xenon Xenith, who will probably be out front flirting with the blue-haired human refugee. Xenon was delving in some ancient ruins and stumbled upon a vault of antiglass, a paraphysical material that can withstand major reconstructions and alterations of reality. Within lay these priceless (5-15k pixels) artifacts from a time long past. \n\nAlternatively, you can spawn them. The item ids are: steelstaffLesser, steelstaffGreater, crystalstaffLesser, crystalstaffGreater, leafstaffLesser, leafstaffGreater, glitchstaffLesser, glitchstaffGreater, plasmastaffLesser, plasmastaffGreater, aquastaffLesser, aquastaffGreater, lightstaffLesser, lightstaffGreater.\n\nI left the abilities mostly as they were for authenticity, but let me know if they need some tweaking in terms of damage, attack length, price, etc, or even more significant changes. Also let me know if the sounds are obnoxious/too loud/whatever. I'm also considering adding secondary abilities to be consistent with current staves.",
+  "friendlyName" : "Restored Staves",
+  "link" : "steam://url/CommunityFilePage/1597203850",
+  "name" : "az-restoredstaves",
+  "steamContentId" : "1597203850",
+  "version" : "1.0"
 }
