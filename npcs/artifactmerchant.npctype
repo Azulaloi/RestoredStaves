@@ -1,10 +1,8 @@
 {
   "type" : "artifactmerchant",
-  "baseType" : "base",
+  "baseType" : "merchant",
 
   "damageTeamType" : "friendly",
-
-
 
   "npcname" : "Xenon",
   "identity" : {
@@ -24,10 +22,6 @@
 
   "dropPools" : [ "wizardtreasure" ],
 
-  "scripts" : [
-    "/npcs/bmain.lua"
-  ],
-
   "initialScriptDelta" : 5,
   "scriptConfig" : {
     "behavior" : "merchant",
@@ -35,15 +29,23 @@
     "behaviorConfig" : {
       "noticePlayersRadius" : 0,
 
-      "hostileDamageTeam" : { "type" :  "enemy", "team" :  1}
+      "hostileDamageTeam" : { "type" :  "friendly", "team" :  1}
     },
 
+    "crew" : {
+      "powerMultiplierExponent" : 1.0,
 
-    "questGenerator" : {
-      "pools" : ["common"],
-      "enableParticipation" : false
+      "role" : {
+        "type" : "soldier",
+        "name" : "Soldier",
+        "field" : "Security",
+        "uniformColorIndex" : 4
+      },
+
+      "ranks" : [
+        "Archeology Expert"
+      ]
     },
-
 
     "merchant" : {
       "waitTime" : 40,
@@ -52,7 +54,6 @@
       "categories" : {
         "override": [ "xenon" ]
       },
-
 
       "buyFactorRange" : [ 1.0, 1.0 ],
       "sellFactorRange" : [ 0.2, 0.2 ],
@@ -105,40 +106,7 @@
               "Not sure how that happened."
             ]}}
           },
-        "tenant" : {
-          "grumbles" : {
-            "tagCriteria" : { "default" : {
-              "default" : [
-                "How did I get here?"
-              ]}},
-            "enclosedArea" : { "default" : {
-              "default" : [
-                "This isn't even a shelter."
-              ]}},
-            "otherDeed" : { "default" : {
-              "default" : [
-                "How many of us are you trying to stuff in here?"
-              ]}},
-            "severe" : { "default" : {
-              "default" : [
-                "This place is not up to code."
-              ]}},
-            "final" : { "default" : {
-              "default" : [
-                "This has gone on long enough. Should these foul conditions persist, I will abscond at once."
-              ]}}
-            },
-          "arrivedHome" : {
-            "beacon" : { "default" : {
-              "default" : [
-                "Another day, another million staves sold."
-              ]}},
-            "rent" : { "default" : {
-              "default" : [
-                "Here, have some staves for your troubles."
-              ]}}
-            }
-        },
+
         "accuse" : { "default" : {
           "default" : [
             "Just what are you trying to do?"
@@ -147,9 +115,96 @@
           "default" : [
             "Shenanigans!"
           ]}}
+        },
+      "crewmember" : {
+        "offer" : {
+          "novakid" : {
+            "default" : [
+              "Offer"
+            ]
+          }
+        },
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Role description"
+            ]
+          }
+        },
+        "respawned" : {
+          "novakid" : {
+            "default" : [
+              "I have died. Ouch."
+            ]
+          }
+        },
+        "unfollow" : {
+          "novakid" : {
+            "default" : [
+              "I'll just wait here."
+            ]
+          }
+        },
+        "follow" : {
+          "novakid" : {
+            "default" : [
+              "Let's go"
+            ]
+          }
+        },
+        "cantreach" : {
+          "default" : {
+            "default" : [
+              "I can't reach you!"
+            ]
+          }
         }
-      }
-    },
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : { "default" : {
+            "default" : [
+              "How did I get here?"
+            ]}},
+          "enclosedArea" : { "default" : {
+            "default" : [
+              "This isn't even a shelter."
+            ]}},
+          "otherDeed" : { "default" : {
+            "default" : [
+              "How many of us are you trying to stuff in here?"
+            ]}},
+          "severe" : { "default" : {
+            "default" : [
+              "This place is not up to code."
+            ]}},
+          "final" : { "default" : {
+            "default" : [
+              "This has gone on long enough. Should these foul conditions persist, I will abscond at once."
+            ]}}
+        },
+        "arrivedHome" : {
+          "beacon" : { "default" : {
+            "default" : [
+              "Another day, another million staves sold."
+            ]}},
+          "rent" : { "default" : {
+            "default" : [
+              "Here, have some staves for your troubles."
+            ]}}
+        }
+      },
+
+      "converse" : { "default" :  { "default" :  [ "Converse" ] } },
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn"
+    }
+  },
 
   "items" : {
     "override" : [
@@ -160,7 +215,7 @@
           "head" : [ "novatier1head" ],
           "back" : [ null ],
           "sheathedprimary" : [
-            "lightstaffGreater"
+            { "name" : "lightstaffGreater" }
           ]
         }
       ] ]
